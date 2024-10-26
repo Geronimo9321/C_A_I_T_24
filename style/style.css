@@ -1,0 +1,92 @@
+ /* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Color de fondo claro */
+}
+
+/* Estilo del encabezado */
+#header {
+    background-color: #0033cc; /* Azul */
+    color: white;
+    padding: 20px 0;
+}
+
+#logo {
+    text-align: center;
+}
+
+#logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+/* Estilo de la navegación */
+#navigation {
+    background-color: #ffffff; /* Blanco */
+    border-bottom: 2px solid #0033cc; /* Línea azul en la parte inferior */
+}
+
+#navigation ul {
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+}
+
+#navigation ul li {
+    display: inline; /* Para que los elementos estén en línea */
+    margin: 0 15px;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: #0033cc; /* Azul */
+    font-weight: bold;
+}
+
+/* Estilo del encabezado secundario */
+#heading {
+    background: linear-gradient(to right, #0033cc 50%, #ffffff 50%); /* Azul y blanco en líneas verticales */
+    padding: 20px 0;
+}
+
+#side-nav {
+    width: 200px;
+    float: left;
+}
+
+#side-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+#side-nav ul li {
+    margin: 10px 0;
+}
+
+#side-nav a {
+    text-decoration: none;
+    color: #0033cc; /* Azul */
+    padding: 10px;
+    display: block;
+    background-color: #ffffff; /* Fondo blanco */
+    border: 1px solid #0033cc; /* Borde azul */
+    transition: background-color 0.3s;
+}
+
+#side-nav a:hover {
+    background-color: #0033cc; /* Cambia a azul al pasar el mouse */
+    color: white; /* Texto blanco al pasar el mouse */
+}
+
+/* Clearfix para el contenedor */
+.cl {
+    clear: both;
+}
